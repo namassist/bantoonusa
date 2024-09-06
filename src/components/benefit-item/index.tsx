@@ -19,13 +19,13 @@ export const BenefitItem = ({ data }: BenefitItemProps) => {
           : "flex-col sm:flex-row"
       }`}
     >
-      <div className="w-full sm:w-6/12 flex items-center gap-2">
+      <div className="w-full sm:w-6/16 lg:w-5/12 flex items-center gap-2">
         <div className="space-y-2">
           <h5 className="display-small text-yellow-500">{data.title}</h5>
           <p className="text-neutral-50">{data.desc}</p>
         </div>
       </div>
-      <div className="w-full sm:w-6/12 flex items-center gap-2">
+      <div className="w-full sm:w-6/16 lg:w-5/12 flex items-center gap-2">
         <Image
           src={data.image}
           alt={`ilustrasi ${data.title}`}

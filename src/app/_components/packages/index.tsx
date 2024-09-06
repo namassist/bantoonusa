@@ -11,7 +11,7 @@ export const Packages = () => {
         alt={`divider`}
         height={500}
         width={500}
-        className="absolute -top-5 w-full z-[100]"
+        className="absolute top-0 w-full z-[100] transform -translate-y-[90%]"
       />
       <div className="container mx-auto">
         <div className="text-center space-y-2 text-gray-900">
@@ -21,25 +21,27 @@ export const Packages = () => {
             custom kami
           </p>
         </div>
-        <div className="mt-[72px] w-full flex flex-wrap items-center gap-5">
-          {packages.map((p) => (
-            <div
-              key={p.title}
-              className="w-full md:w-[calc(50%_-_1rem)] flex items-center text-gray-900 gap-2"
-            >
-              <Image
-                src={p.icon}
-                alt={`${p.title} icon`}
-                height={500}
-                width={500}
-                className="w-8 h-8"
-              />
-              <p className="body-large">{p.title}</p>
-            </div>
-          ))}
+        <div className="mt-[72px] w-full flex justify-center">
+          <div className="w-full lg:w-10/12 flex flex-wrap justify-center items-center gap-5">
+            {packages.map((p) => (
+              <div
+                key={p.title}
+                className="w-full sm:w-[calc(50%_-_1rem)] flex items-center text-gray-900 gap-2"
+              >
+                <Image
+                  src={p.icon}
+                  alt={`${p.title} icon`}
+                  height={500}
+                  width={500}
+                  className="w-8 h-8"
+                />
+                <p className="body-large">{p.title}</p>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="mt-[72px]">
-          <Button className="w-full text-yellow-400 bg-gray-900 button-cta font-semibold rounded-full p-8">
+        <div className="mt-[72px] w-full flex justify-center">
+          <Button className="w-full lg:w-10/12 text-yellow-400 bg-gray-900 button-cta font-semibold rounded-full p-8 text-[20px]">
             Paket spesial mulai dari Rp 15 jt+
           </Button>
         </div>

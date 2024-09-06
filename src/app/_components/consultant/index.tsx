@@ -10,11 +10,11 @@ export const Consultant = () => {
         alt={`divider`}
         height={500}
         width={500}
-        className="absolute -top-5 w-full z-[100]"
+        className="absolute top-0 w-full z-[100] transform -translate-y-[90%]"
       />
       <div className="container mx-auto">
         <div className="text-center space-y-2">
-          <h4 className="display-medium text-yellow-500">Masih Bingung? </h4>
+          <h4 className="display-medium text-yellow-500">Masih Bingung?</h4>
           <p className="heading-small text-neutral-50">
             Hubungi kami untuk konsultasi gratis sebelum memesan layanan kami
           </p>

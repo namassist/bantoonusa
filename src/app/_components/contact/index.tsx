@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FormContact } from "./_components/form-contact";
 
 export const Contact = () => {
   return (
@@ -8,7 +9,7 @@ export const Contact = () => {
         alt={`divider`}
         height={500}
         width={500}
-        className="absolute -top-5 w-full z-[100]"
+        className="absolute top-0 w-full z-[100] transform -translate-y-[90%]"
       />
       <div className="container mx-auto">
         <div className="text-center space-y-2">
@@ -18,6 +19,9 @@ export const Contact = () => {
           <p className="heading-small text-neutral-50">
             Tim kami siap membantu dalam mewujudkan website impianmu
           </p>
+        </div>
+        <div className="mt-[72px] w-full flex justify-center">
+          <FormContact />
         </div>
       </div>
     </section>
