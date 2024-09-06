@@ -2,13 +2,13 @@ export const benefits = [
   {
     title: "Dukungan Profesional",
     desc: "Kami adalah tim profesional yang telah berpengalaman dalam mengerjakan proyek-proyek untuk berbagai industri, dan untuk memastikan website Anda selalu dalam kondisi terbaik dan terus berkembang, tim kami juga menyediakan layanan maintenance.",
-    image: "/illustration-1.png",
+    image: "/Illustration-1.png",
     reverse: false,
   },
   {
     title: "Desain Kreatif",
     desc: "Kami dapat memberikan desain website yang unik, menarik, dan sesuai dengan preferensi Anda. Kenyamanan pengunjung dan user website Anda menjadi prioritas kami.",
-    image: "/illustration-2.png",
+    image: "/Illustration-1.png",
     reverse: true,
   },
   {
