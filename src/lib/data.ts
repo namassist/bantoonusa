@@ -8,13 +8,13 @@ export const benefits = [
   {
     title: "Desain Kreatif",
     desc: "Kami dapat memberikan desain website yang unik, menarik, dan sesuai dengan preferensi Anda. Kenyamanan pengunjung dan user website Anda menjadi prioritas kami.",
-    image: "/Illustration-1.png",
+    image: "/Illustration-2.png",
     reverse: true,
   },
   {
     title: "Harga Terjangkau",
     desc: "Solusi website berkualitas dan terjangkau kami dapat membantu pertumbuhan bisnis Anda. Jangan ragu untuk menghubungi kami dan segera dapatkan solusi terbaik untuk website Anda.",
-    image: "/illustration-3.png",
+    image: "/Illustration-3.png",
     reverse: false,
   },
 ];
