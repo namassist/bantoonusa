@@ -7,7 +7,7 @@ export const Footer = () => {
     <footer className="bg-[#1D1F22] text-neutral-50 pt-5">
       <div className="container mx-auto space-y-4">
         <div className="w-full flex flex-col sm:flex-row">
-          <div className="w-full lg:w-6/12 flex flex-col justify-between">
+          <div className="w-full sm:w-6/12 flex flex-col justify-between">
             <Link href="/" className="flex items-center gap-1">
               <Image
                 src="/logo-white.png"
@@ -32,19 +32,19 @@ export const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-6/12 flex flex-col lg:flex-row gap-6">
-            <div className="w-full lg:w-4/12 space-y-4">
+          <div className="w-full sm:w-6/12 flex flex-col sm:flex-row gap-6">
+            <div className="w-full sm:w-4/12 space-y-4">
               <p className="heading-small text-yellow-400">Media sosial</p>
               <p className="font-secondary-sans">Instagram</p>
               <p className="font-secondary-sans">Facebook</p>
             </div>
-            <div className="w-full lg:w-4/12 space-y-4">
+            <div className="w-full sm:w-4/12 space-y-4">
               <p className="heading-small text-yellow-400">Program (soon)</p>
               <p className="font-secondary-sans">Youth Social Care Camp</p>
               <p className="font-secondary-sans">Ramadhan Berbagi</p>
               <p className="font-secondary-sans">LMM</p>
             </div>
-            <div className="w-full lg:w-4/12 space-y-4">
+            <div className="w-full sm:w-4/12 space-y-4">
               <p className="heading-small text-yellow-400">Navigasi</p>
               <p className="font-secondary-sans">Home</p>
               <p className="font-secondary-sans">Layanan</p>
