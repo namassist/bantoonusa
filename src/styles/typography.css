@@ -5,103 +5,79 @@
 @layer base {
   /* Display Typografi */
   .display-large {
-    @apply font-bold text-[48px] leading-[1.34] tracking-[-0.01em] font-primary-sans;
+    @apply font-bold text-display-large leading-[1.34] tracking-[-0.01em] font-primary-sans;
   }
 
   .display-medium {
-    @apply font-bold text-[40px] leading-[1.2] tracking-[-0.025em] font-primary-sans;
+    @apply font-bold text-display-medium leading-[1.2] tracking-[-0.025em] font-primary-sans;
   }
 
   .display-small {
-    @apply font-bold text-[32px] leading-[1.25] tracking-[-0.02em] font-primary-sans;
+    @apply font-bold text-display-small leading-[1.25] tracking-[-0.02em] font-primary-sans;
   }
 
   /* Heading Typografi */
   .heading-large {
-    @apply font-semibold text-[28px] leading-[1.3] tracking-[-0.01em] font-secondary-sans;
+    @apply font-semibold text-heading-large leading-[1.3] tracking-[-0.01em] font-secondary-sans;
   }
 
   .heading-medium {
-    @apply font-semibold text-[24px] leading-[1.35] tracking-[-0.01em] font-secondary-sans;
+    @apply font-semibold text-heading-medium leading-[1.35] tracking-[-0.01em] font-secondary-sans;
   }
 
   .heading-small {
-    @apply font-semibold text-[20px] leading-[1.4] tracking-[-0.005em] font-secondary-sans;
+    @apply font-semibold text-heading-small leading-[1.4] tracking-[-0.005em] font-secondary-sans;
   }
 
   /* Subheading Typografi */
   .subheading-large {
-    @apply font-normal text-[18px] leading-[1.55] font-secondary-sans;
+    @apply font-normal text-subheading-large leading-[1.55] font-secondary-sans;
   }
 
   .subheading-medium {
-    @apply font-normal text-[16px] leading-[1.5] font-secondary-sans;
+    @apply font-normal text-subheading-medium leading-[1.5] font-secondary-sans;
   }
 
   .subheading-small {
-    @apply font-normal text-[14px] leading-[1.55] font-secondary-sans;
+    @apply font-normal text-subheading-small leading-[1.55] font-secondary-sans;
   }
 
   /* Body Text */
   .body-large {
-    @apply font-normal text-[16px] leading-[1.5] tracking-[0.02em] font-secondary-sans;
+    @apply font-normal text-body-large leading-[1.5] tracking-[0.02em] font-secondary-sans;
   }
 
   .body-medium {
-    @apply font-normal text-[14px] leading-[1.55] tracking-[0.01em] font-secondary-sans;
+    @apply font-normal text-body-medium leading-[1.55] tracking-[0.01em] font-secondary-sans;
   }
 
   .body-small {
-    @apply font-normal text-[12px] leading-[1.7] font-secondary-sans;
+    @apply font-normal text-body-small leading-[1.7] font-secondary-sans;
   }
 
   /* Label Text */
   .label-large {
-    @apply font-normal text-[14px] leading-[1.55] tracking-[0.01em] font-secondary-sans;
+    @apply font-normal text-label-large leading-[1.55] tracking-[0.01em] font-secondary-sans;
   }
 
   .label-medium {
-    @apply font-normal text-[12px] leading-[1.7] tracking-[0.15em] font-secondary-sans;
+    @apply font-normal text-label-medium leading-[1.7] tracking-[0.15em] font-secondary-sans;
   }
 
   .label-small {
-    @apply font-normal text-[10px] leading-[1.66] tracking-[0.2em] font-secondary-sans;
+    @apply font-normal text-label-small leading-[1.66] tracking-[0.2em] font-secondary-sans;
   }
 
   /* Button Text */
   .button-cta {
-    @apply font-semibold text-[20px] leading-[1.4] tracking-[-0.01em] font-primary-sans;
+    @apply font-semibold text-button-cta leading-[1.4] tracking-[-0.01em] font-primary-sans;
   }
 
   .button-large {
-    @apply font-semibold text-[16px] leading-[1.5] tracking-[0.02em] font-primary-sans;
+    @apply font-semibold text-button-large leading-[1.5] tracking-[0.02em] font-primary-sans;
   }
 
   .button-medium {
-    @apply font-semibold text-[14px] leading-[1.55] tracking-[0.01em] font-primary-sans;
-  }
-
-  /* Input Field Text */
-  .input-field-default {
-    @apply font-normal text-[16px] leading-[1.5] tracking-[0.02em] font-secondary-sans;
-  }
-
-  .input-field-typing {
-    @apply font-semibold text-[16px] leading-[1.5] tracking-[0.02em] font-secondary-sans;
-  }
-
-  /* Blockquote */
-  .blockquote {
-    @apply font-normal text-[16px] leading-[1.5] tracking-[0.02em] font-times-new-roman;
-  }
-
-  /* Code */
-  .code {
-    @apply font-mono text-[14px] leading-[1.45] tracking-[0.025em] font-consolas;
-  }
-
-  /* Caption */
-  .caption {
-    @apply font-normal text-[12px] leading-[1.3] font-secondary-sans;
+    @apply font-semibold text-button-medium leading-[1.55] tracking-[0.01em] font-primary-sans;
   }
 }

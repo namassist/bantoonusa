@@ -14,7 +14,7 @@ export const Packages = () => {
         className="absolute top-0 w-full z-[100] transform -translate-y-[90%]"
       />
       <div className="container mx-auto">
-        <div className="text-center space-y-2 text-gray-900">
+        <div className="text-center text-gray-900 space-y-6 sm:space-y-2">
           <h4 className="display-medium">Paket Khusus yang Tidak Terbatas</h4>
           <p className="heading-small ">
             Buat website Anda sepenuh hati dengan layanan pembuatan website
@@ -41,7 +41,7 @@ export const Packages = () => {
           </div>
         </div>
         <div className="mt-[72px] w-full flex justify-center">
-          <Button className="w-full lg:w-10/12 text-yellow-400 bg-gray-900 button-cta font-semibold rounded-full p-8 text-[20px]">
+          <Button className="w-full lg:w-10/12 text-button-cta text-yellow-400 bg-gray-900 button-cta font-semibold rounded-full p-8">
             Paket spesial mulai dari Rp 15 jt+
           </Button>
         </div>

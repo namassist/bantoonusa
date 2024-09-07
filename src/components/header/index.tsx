@@ -38,13 +38,13 @@ export const Header = () => {
                 bantoo<span className="text-yellow-700">nusa</span>
               </span>
             </Link>
-            <ul className="flex items-center justify-center gap-10 button-large capitalize">
+            <ul className="hidden sm:flex items-center justify-center gap-10 button-large capitalize">
               <Link href="#home">Home</Link>
               <Link href="#layanan">Layanan</Link>
               <Link href="#harga">Harga</Link>
               <Link href="#tentang-kami">tentang kami</Link>
             </ul>
-            <Link href="/" className="button-large">
+            <Link href="/" className="button-large hidden sm:block">
               Hubungi Kami
             </Link>
           </div>

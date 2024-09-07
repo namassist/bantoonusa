@@ -73,7 +73,7 @@ export const FormContact = () => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="w-full lg:w-8/12 flex flex-col space-y-8 justify-center items-center gap-6 sm:flex-row sm:flex-wrap sm:space-y-0"
+        className="w-full lg:w-8/12 flex flex-col justify-center items-center gap-6 sm:flex-row sm:flex-wrap"
       >
         <FormField
           control={form.control}

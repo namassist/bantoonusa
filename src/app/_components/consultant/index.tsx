@@ -13,7 +13,7 @@ export const Consultant = () => {
         className="absolute top-0 w-full z-[100] transform -translate-y-[90%]"
       />
       <div className="container mx-auto">
-        <div className="text-center space-y-2">
+        <div className="text-center space-y-6 sm:space-y-2">
           <h4 className="display-medium text-yellow-500">Masih Bingung?</h4>
           <p className="heading-small text-neutral-50">
             Hubungi kami untuk konsultasi gratis sebelum memesan layanan kami
@@ -31,7 +31,7 @@ export const Consultant = () => {
               width={500}
               className="w-6 h-6 object-cover mr-2"
             />
-            (+62) 1234 5678 9012
+            (+62) 821 2685 9543
           </Button>
         </Link>
         <div className="mt-[36px] text-neutral-50 text-center w-full flex justify-center">

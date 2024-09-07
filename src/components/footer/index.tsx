@@ -27,7 +27,7 @@ export const Footer = () => {
                 </div>
                 <div className="space-y-1 font-secondary-sans">
                   <p className="font-semibold text-sm">WhatsApp</p>
-                  <p>(+62) 1234 5678 9012</p>
+                  <p>(+62) 821 2685 9543</p>
                 </div>
               </div>
             </div>
@@ -53,12 +53,12 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex flex-col lg:flex-row justify-between items-center text-sm font-secondary-sans py-5 border-neutral-800 border-t-2">
+        <div className="w-full flex flex-col lg:flex-row justify-between lg:items-center text-sm font-secondary-sans py-5 border-neutral-800 border-t-2">
           <p>
             Bantoonusa: Solusi website Nusantara yang terarah, responsif, dan
             menjadikan pengguna sebagai fokus utama
           </p>
-          <p>© Bantoonusa 2023. Hak cipta dilindungi.</p>
+          <p>© Bantoonusa 2024. Hak cipta dilindungi.</p>
         </div>
       </div>
     </footer>

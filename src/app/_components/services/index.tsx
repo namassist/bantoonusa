@@ -14,7 +14,7 @@ export const Services = () => {
         className="absolute top-0 w-full z-[100] transform -translate-y-[90%]"
       />
       <div className="container mx-auto">
-        <div className="text-center space-y-2 text-gray-900">
+        <div className="text-center space-y-6 sm:space-y-2 text-gray-900">
           <h4 className="display-medium">Beragam Website untuk Anda</h4>
           <p className="heading-small ">
             Temukan jenis dan solusi yang tepat untuk kebutuhan website Anda

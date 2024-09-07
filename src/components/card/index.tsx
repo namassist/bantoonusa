@@ -21,8 +21,12 @@ export const Card = ({ data }: CardProps) => {
           className="w-14 h-14 object-cover"
         />
       </div>
-      <h5 className="heading-large text-gray-900">{data.title}</h5>
-      <p className="subheading-large text-gray-900">{data.desc}</p>
+      <h5 className="heading-large text-gray-900 text-center sm:text-left">
+        {data.title}
+      </h5>
+      <p className="subheading-large text-gray-900 text-center sm:text-left">
+        {data.desc}
+      </p>
     </div>
   );
 };

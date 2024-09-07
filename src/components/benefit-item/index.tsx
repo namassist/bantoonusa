@@ -13,7 +13,7 @@ interface BenefitItemProps {
 export const BenefitItem = ({ data }: BenefitItemProps) => {
   return (
     <div
-      className={`w-full flex justify-center items-center gap-2 mt-[72px] ${
+      className={`w-full flex justify-center items-center gap-6 sm:gap-2 mt-[72px] ${
         data.reverse
           ? "flex-col-reverse sm:flex-row-reverse"
           : "flex-col sm:flex-row"
