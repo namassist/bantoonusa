@@ -48,7 +48,11 @@ export const Header = () => {
               <Link href="#harga">Harga</Link>
               <Link href="#tentang-kami">tentang kami</Link>
             </ul>
-            <Link href="/" className="button-large hidden sm:block">
+            <Link
+              href="https://api.whatsapp.com/send/?phone=6282126859543&type=phone_number&app_absent=0"
+              target="_blank"
+              className="button-large hidden sm:block hover:text-yellow-600"
+            >
               Hubungi Kami
             </Link>
             <div className="block sm:hidden">

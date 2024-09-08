@@ -24,6 +24,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 const formSchema = z.object({
   name: z.string().min(2).max(50),
@@ -46,11 +47,12 @@ const formSchema = z.object({
       }
     ),
   description: z.string().min(10).max(250),
-  budget: z.string().min(10).max(250),
+  budget: z.string().min(1).max(250),
   deadline: z.string().min(1).max(250),
 });
 
 export const FormContact = () => {
+  const router = useRouter();
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -66,7 +68,10 @@ export const FormContact = () => {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
+    const url = "https://api.whatsapp.com/send/?phone=6282114069625&text=";
+    const template = `Halo%2C%20saya%20${values.name}%20dari%20${values.company}.%20${values.description}.%20Untuk%20proyek%20ini%2C%20saya%20memiliki%20anggaran%20sebesar%20Rp%20${values.budget}%20dengan%20tenggat%20waktu%20penyelesaian%20selama%20${values.deadline}%20hari.%20Jika%20ada%20pertanyaan%20lebih%20lanjut%2C%20saya%20bisa%20dihubungi%20melalui%20email%20di%20${values.email}%20atau%20nomor%20telepon%20${values.mobile_number}.%20Terima%20kasih`;
+
+    router.push(url + template);
   }
 
   return (

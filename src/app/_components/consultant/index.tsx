@@ -19,7 +19,11 @@ export const Consultant = () => {
             Hubungi kami untuk konsultasi gratis sebelum memesan layanan kami
           </p>
         </div>
-        <Link href="/" className="mt-[72px] flex justify-center items-center">
+        <Link
+          href="https://api.whatsapp.com/send/?phone=6282126859543&type=phone_number&app_absent=0"
+          target="_blank"
+          className="mt-[72px] flex justify-center items-center"
+        >
           <Button
             variant="outline"
             className="text-neutral-50 button-cta font-semibold rounded-full p-8"
