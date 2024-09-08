@@ -13,7 +13,7 @@ export const Header = () => {
 
   React.useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 0) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -26,7 +26,9 @@ export const Header = () => {
     };
   }, []);
   return (
-    <header className="z-[10000] max-w-screen top-0 left-0 center fixed w-screen text-gray-800">
+    <header
+      className={`z-[10000] max-w-screen top-0 left-0 center fixed w-screen text-gray-800`}
+    >
       <div className="container mx-auto">
         <nav className="w-full h-[80px] grid items-center">
           <div className="flex justify-between items-center relative z-[10000]">
@@ -81,7 +83,9 @@ export const Header = () => {
           </div>
           <div
             className={`absolute top-0 left-0 w-full h-full border -z-1 backdrop-filter backdrop-blur-lg border-neutral-200 transition-colors duration-1000 ease-in-out ${
-              scrolled ? "bg-neutral-200/50" : "bg-neutral-100"
+              scrolled
+                ? "bg-neutral-100 border-b-[1px] border-neutral-900 shadow-lg"
+                : "border-none"
             }`}
           ></div>
         </nav>
