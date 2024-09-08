@@ -5,7 +5,7 @@ import React from "react";
 
 export const Services = () => {
   return (
-    <section className="bg-[#F1EFE3] py-20 relative">
+    <section className="bg-[#F1EFE3] py-24 relative" id="layanan">
       <Image
         src="/divider-light.svg"
         alt={`divider`}

@@ -3,7 +3,7 @@ import { FormContact } from "./_components/form-contact";
 
 export const Contact = () => {
   return (
-    <section className="py-20 bg-[#1D1F22] relative">
+    <section className="py-24 bg-[#1D1F22] relative" id="harga">
       <Image
         src="/divider-dark.svg"
         alt={`divider`}

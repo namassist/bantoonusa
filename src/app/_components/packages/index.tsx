@@ -5,7 +5,7 @@ import React from "react";
 
 export const Packages = () => {
   return (
-    <section className="bg-[#F1EFE3] py-20 relative">
+    <section className="bg-[#F1EFE3] py-24 relative">
       <Image
         src="/divider-light.svg"
         alt={`divider`}

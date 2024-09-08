@@ -1,10 +1,13 @@
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import React from "react";
 
 export const Hero = () => {
   return (
-    <div className="w-full bg-hero bg-center bg-cover aspect-[16/9] h-screen lg:h-auto flex flex-col items-center justify-center gap-4 pt-20 sm:pt-0">
+    <div
+      id="home"
+      className="w-full bg-hero bg-center bg-cover aspect-[16/9] h-[150vh] sm:h-screen flex flex-col items-center justify-center gap-4 pt-20 sm:pt-0 sm:aspect-auto"
+    >
       <h1 className="px-4 sm:px-0 display-large max-w-3xl text-center text-gray-900">
         Bangun Identitas Online Anda dengan Web yang Memukau
       </h1>

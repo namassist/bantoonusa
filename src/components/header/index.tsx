@@ -1,11 +1,15 @@
 "use client";
 
 import * as React from "react";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button";
+import { AlignJustify, X } from "lucide-react";
 
 export const Header = () => {
   const [scrolled, setScrolled] = React.useState(false);
+  const [isOpen, setIsOpen] = React.useState(false);
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -47,6 +51,29 @@ export const Header = () => {
             <Link href="/" className="button-large hidden sm:block">
               Hubungi Kami
             </Link>
+            <div className="block sm:hidden">
+              <Sheet open={isOpen} onOpenChange={setIsOpen}>
+                <SheetTrigger asChild>
+                  <Button variant="ghost">
+                    {isOpen ? <X /> : <AlignJustify />}
+                  </Button>
+                </SheetTrigger>
+                <SheetContent
+                  side={"top"}
+                  className="h-screen z-[1000] bg-[#1D1F22] mt-[80px]"
+                >
+                  <ul className="flex flex-col gap-6 button-large capitalize">
+                    <Link href="#home">Home</Link>
+                    <Link href="#layanan">Layanan</Link>
+                    <Link href="#harga">Harga</Link>
+                    <Link href="#tentang-kami">tentang kami</Link>
+                    <Link href="#tentang-kami" className="text-yellow-400">
+                      hubungi kami
+                    </Link>
+                  </ul>
+                </SheetContent>
+              </Sheet>
+            </div>
           </div>
           <div
             className={`absolute top-0 left-0 w-full h-full border -z-1 backdrop-filter backdrop-blur-lg border-neutral-200 transition-colors duration-1000 ease-in-out ${

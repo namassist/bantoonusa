@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Consultant = () => {
   return (
-    <section className="py-20 bg-[#1D1F22] relative">
+    <section className="py-24 bg-[#1D1F22] relative">
       <Image
         src="/divider-dark.svg"
         alt={`divider`}
